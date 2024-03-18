@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>Document</title>
+</head>
+<body class="bg-gray-100 ">
+    <div class="flex mt-2 mx-2">
+        <div id="test" class="bg-white w-4/6">
+         
+        </div>
+        <div class="w-2/6 border p-1 ml-2 bg-white">
+            <div id="container" class="h-40 overflow-y-auto">
+                
+            </div>
+            <div>
+                <div class="mx-6">
+                    <hr class="w-full mt-5">
+                    <div class="text-base">Bill Details</div>
+                    <div class="flex justify-between text-gray-500">
+                        <span class="text-sm ">Item Total</span>
+                        <span id="totalprice_without_gst" class="text-sm"></span>
+                    </div>
+                    <div class="flex justify-between text-gray-500">
+                        <span class="text-sm">GST and Charges</span>
+                        <span id="gst" class="text-sm"></span>
+                    </div>
+                    
+                </div>
+                <div class="flex justify-between bg-white mt-2 px-2 w-full h-10 shadow-[0_3px_10px_rgb(0,0,0,0.2)] font-sans text-base font-bold">
+                    <span>TO PAY</span>
+                    <span id="amountToBePaid"></span>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    
+    <script src="checkout.js" defer></script>
+</body>
+</html>
